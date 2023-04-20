@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("Imagens/download.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-attachment: local;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.d1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.Tropa {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+.textTropa {
+    color: white;
+    text-align: justify;
+
+}
+
+.sec {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.sec2 {
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+}
+
+.img1 {
+    height: 653px;
+    width: 50vw;
+}
+
+.link {
+    background-color: wheat;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.TextLink {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width:800px) {
+    main {
+        background: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textTropa {
+        color: white;
+        text-align: justify;
+        padding: 50px;
+    }
+
+    .sec {
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .sec2 {
+        display: flex;
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .img1 {
+        height: 653px;
+        width: 100%;
+    }
+
+    .text {
+        color: white;
+        padding: 50px;
+    }
+}
